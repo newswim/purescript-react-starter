@@ -1,0 +1,24 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "spago build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel html/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "purescript": "^0.14.5",
+    "purs-tidy": "^0.6.2",
+    "spago": "^0.20.3"
+  }
+}
